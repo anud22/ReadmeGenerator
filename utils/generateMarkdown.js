@@ -65,7 +65,7 @@ function generateSections(name, desc) {
     return '';
   }
   name = name[0].toUpperCase() + name.substring(1);
-  return `\n ### ${name}\n #### ${desc}\n\n`;
+  return `\n ## ${name}\n #### ${desc}\n <br> \n`;
 }
 
 // TODO: Create a function to generate markdown for README
@@ -101,6 +101,7 @@ function generateMarkdown(data) {
       }
     }
   }
+  str += `\n [Readme Generator Video](https://drive.google.com/file/d/1kdXBRbA2X7FWoaCnySo849sXqzGDIa8s/view?usp=drive_link)`;
   return str;
 }
 
