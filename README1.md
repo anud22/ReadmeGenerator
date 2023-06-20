@@ -24,7 +24,7 @@ AS A developer
 I WANT a README generator
 SO THAT I can quickly create a professional README for a new project
 ```
-
+![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
 ## Acceptance Criteria
 
 ```md
