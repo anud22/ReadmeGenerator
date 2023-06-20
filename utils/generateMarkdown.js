@@ -65,7 +65,7 @@ function generateSections(name, desc) {
     return '';
   }
   name = name[0].toUpperCase() + name.substring(1);
-  return `### ${name}\n #### ${desc}\n\n`;
+  return `\n ### ${name}\n #### ${desc}\n\n`;
 }
 
 // TODO: Create a function to generate markdown for README
@@ -82,7 +82,7 @@ function generateMarkdown(data) {
         let qs = '';
         if (`${data.username}`) {
           let profile = 'https://github.com/' + data['username'];
-          qs += `[Github profile](${profile})`
+          qs += `Github profile (${profile})\n`
         }
         if (`${data.email}`) {
           let email = `Email address : ${data.email}`;
